@@ -1,0 +1,259 @@
+https://blog.jscrambler.com/vue-js-authentication-system-with-node-js-backend
+
+
+https://www.djamware.com/post/5ac8338780aca714d19d5b9e/securing-mevn-stack-vuejs-2-web-application-using-passport
+
+http://14.98.73.11/sghealth_dev/server/public/admin/u/0/role
+http://14.98.73.11/phpdb/db_structure.php?server=1&db=sghealth_dev
+
+https://www.draw.io/
+https://itnext.io/become-a-git-pro-in-just-one-blog-a-thorough-guide-to-git-architecture-and-command-line-interface-93fbe9bdb395
+https://dbdiagram.io/d/5cd9b4161f6a891a6a654675
+
+
+Mail:-
+	Target Type:-
+		2018dec		2019 jan
+		2  			=  2 constnt
+		2  			=  3 extra down
+		2 			=  1 extra up
+
+
+
+Back Data:-2013 from
+Import Section for kpi
+
+
+git archive --format zip --output /full/path/to/zipfile.zip 29435bc
+git archive --format zip --output /var/www/html/zipfile.zip dc2173040c8208493857492083ad112afe19971d
+
+
+https://www.techiediaries.com/vue-js-express-tutorial/
+
+https://github.com/davestewart/vee-element/tree/master/demo
+
+Signout skype
+signout postman
+html vue delete folder
+music anoop songas
+delete vue folder
+
+https://vuejsexamples.com/navigation-menu-with-vue/
+
+
+
+
+
+https://docs.google.com/spreadsheets/d/1YhO5uFm30_NpyzVQPYNw93LQwICZx-myKu39ok6Nptc/edit#gid=0
+http://pms.singsys.net/index.php?page=timetracker
+http://14.98.73.11/phpdb/db_structure.php?server=1&db=mempub
+https://dbdiagram.io/d/5cd9b4161f6a891a6a654675
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#########tabke
+
+reporting_platform
+	id
+	titile
+	description
+	timestamp
+kpi 
+	id int(11)
+	name varchar(255)
+	interval enum(monthly,quaterly,yearly)
+	year enum(calendar,financial)
+	direction enum(up,down)
+	title varchar(255)
+	description longtext(
+	uom varchar255
+	kpi_reporting_platform_id
+	deleted_by
+	status active,inactive
+	compute_by 
+	target
+	penalty
+	incentive
+	timestamp
+
+kpi_reporting_platform
+	id
+	kpi_id
+	reporting_platform_id
+	timestamp
+
+
+kpi_users
+	id
+	kpi_id
+	user_id
+	timestamp
+
+#role_user
+	id
+	user_id
+	role_id
+	timestamp
+
+kpi_log
+	id
+	kpi_id
+	user_id
+	user_detail json
+	timestamp
+
+kpi_target
+	id
+	kpi_id
+	frequency
+	target
+
+kpi_perf
+	id
+	kpi_target_id
+	perf
+	comment
+	status current/previous
+
+
+Table user_roles {
+  id int [pk]
+  user_id int
+  role_id int
+  created_at timestamp [note: "When order created"]
+  updated_at timestamp [note: "When order updated"]
+}
+
+
+users
+	id
+	user_id
+	user_name
+	dept_name
+	cc json
+	bcc json
+
+permissions
+	id
+	name
+	guard_name
+	timestamp
+
+roles
+	id
+	name
+	guard_name
+	timestamp
+
+model_has_permissions
+	permission_id 		[ref: permissions]
+	model_id user_id    [ref: permissions]
+	model_type
+
+model_has_roles
+	role_id			[ref: roles]
+	model_id user_id
+	model_type
+
+role_has_permissions
+	permission_id		[ref: permissions]
+	role_id				[ref: roles]
+	
+
+email_template
+	id
+	template_name
+	description longtext
+	timestamp
+
+email_setting
+	id
+
+
+
+
+
+
+
+
+#333333333#33pub
+
+
+
+
+
+
+com.t2ksports.nba2k13android
+
+
+james cameron has change target from 20 to 23
+
+
+
+
+Target changed from 20 to 23.
+
+
+Rather than 2 steps we have optimised the selection procedure in single step for fropdown
+
+
+Send Excel for newly added contract
+
+
+
+james cameron has change from penalty 20 to penalty 23
+james cameron has change from incentive 20 to incentive 23
+
+
+
+
+
+
+
+
+
+
+
+modified:   app/Http/Controllers/admin/ConsumptionReportGenerationController.php
+	modified:   app/Http/Controllers/admin/PremiseDetailController.php
+	modified:   app/Http/Controllers/admin/QcWithConsumptionController.php
+	modified:   app/Lib/PremiseQuery.php
+	modified:   resources/views/consumptionReportGeneration/consumption-report-generation.blade.php
+	modified:   resources/views/customers.blade.php
+	modified:   resources/views/qcWithConsumption/qc-with-consumption.blade.php
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	database/migrations/2019_05_04_131205_add_ceased_date_to_premise_table.php
